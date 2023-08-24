@@ -1,8 +1,16 @@
-import logo from "./logo.svg";
+import Header from "./Header";
+
+import Form from "./Form";
+
 import "./App.css";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Header />
+      <Form />
+    </div>
+  );
 }
 
 export default App;

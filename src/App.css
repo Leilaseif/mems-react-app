@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+body{
+  
+    font-family: "Inter", sans-serif;
+    font-family: "Roboto Slab", serif;
+   
+    
+}
+.Header{
+  box-sizing: border-box;
+  border: 1px solid #446a2d;
+  background-color: #FEF4EB;
+   display: flex; 
+  text-align: center; 
+  padding: 10px;
+  justify-content: space-between;
+}
+.image--logo{
+    height: 100px;
+    width: 100px;
+}
+.Header--title{
+font-weight: bolder;
+ color: #405843;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Form {
+margin-top: 30px;
+text-align: center;
+border-width: 1px;
+color: antiquewhite;
+
+}
+.input--topText{
+margin-right: 10px;
+padding:10px 50px 10px 10px;
+border-radius: 7px;
+
+}
+.input--buttomText{
+  padding:10px 50px 10px 10px;
+  border-radius: 7px;
+  border-color: #446a2d;
+  
+}
+.submit{
+  margin-top: 20px;
+  padding: 10px 70px;
+  font-size: larger;
+  border-color: #446a2d;
+  color: #446a2d;
+  border-radius: 7px;
+  background-color:#FDF4EB ;
+}
+.Mems{
+  position: relative;
+}
+.Mems--photo{
+  max-width: 100%;
+  border-radius: 3px;
+}
+.Mem--text{
+  position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Mems--topText{
+  top: 0;
+} 
+.Mems--buttonText{ 
+  bottom: 0;
 }
